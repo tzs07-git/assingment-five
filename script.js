@@ -1,4 +1,4 @@
-// writting programming on heart icon
+
 function increaseHeartCopy(id){
     const heart = document.getElementById(id);
     const heartInnerText = parseInt(heart.innerText);     
@@ -35,35 +35,13 @@ document.getElementById("railway").addEventListener("click", function(e){
 });
 
 // writting programming for call buttons
+
 function creatingHistoryElement(names, numbers) {
+
     // Time
+
     const clockTime = new Date();
     let hour = clockTime.getHours();
-    // if(hour === 13){
-    //     hour = "01";
-    // }else if(hour === 14) {
-    //     hour = "02";
-    // }else if(hour === 15) {
-    //     hour = "03";
-    // }else if(hour === 16) {
-    //     hour = "04";
-    // }else if(hour === 17) {
-    //     hour = "05";
-    // }else if(hour === 18) {
-    //     hour = "06";
-    // }else if(hour === 19) {
-    //     hour = "07";
-    // }else if(hour === 20) {
-    //     hour = "08";
-    // }else if(hour === 21) {
-    //     hour = "09";
-    // }else if(hour === 22) {
-    //     hour = "10";
-    // }else if(hour === 23) {
-    //     hour = "11";
-    // }else if(hour == "00") {
-    //     hour = "12";
-    // }
     
     const minute = clockTime.getMinutes();
     let second = clockTime.getSeconds();
@@ -134,12 +112,14 @@ document.getElementById("calling-railway").addEventListener("click", function(){
 });
 
 // writing programming for history CLEAR button
+
 document.getElementById("clear-btn").addEventListener("click", function() {
     const getHistory = document.getElementById("history-box");
     getHistory.replaceChildren();
 })
 
 // writing programming for copy button
+
 function copyNumber(number) {
     const num = document.getElementById(number).textContent;
     navigator.clipboard.writeText(num);
