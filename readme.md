@@ -1,12 +1,12 @@
 1. Difference between getElementById, getElementsByClassName, querySelector, querySelectorAll?
 
-  1. getElementById("idName") → Selects only one element with the specific id.
+  1.getElementById("idName") → Selects only one element with the specific id.
 
-  2. getElementsByClassName("className") → Selects all elements that have the same class (returns a collection).
+  2.getElementsByClassName("className") → Selects all elements that have the same class (returns a collection).
 
-  3. querySelector("cssSelector") → Selects the first element that matches any CSS selector.
+  3.querySelector("cssSelector") → Selects the first element that matches any CSS selector.
 
-  4. querySelectorAll("cssSelector") → Selects all elements that match the CSS selector (returns a list).
+  4.querySelectorAll("cssSelector") → Selects all elements that match the CSS selector (returns a list).
 
 
 
@@ -35,13 +35,13 @@ We can create a new element by using createElement() method in Javascipt file. T
 
 Event bubbling means when you click on a child element, the event doesn’t stop there — it “bubbles up” to its parent, then to the parent’s parent, and so on, until it reaches the top.
 
-click on a <li> inside an <ol> which is inside a <div>.
+click on a li inside an ol which is inside a div.
 
-First the click is handled by the <li>.
+First the click is handled by the li.
 
-Then the same event moves up to the <ol>.
+Then the same event moves up to the ol.
 
-it goes to the <div>.
+it goes to the div.
 
 Finally, it reaches the document.
 
